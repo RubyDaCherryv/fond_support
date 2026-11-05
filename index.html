@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Автоматизация рутины для фонда — Ваше Имя</title>
+  <meta name="description" content="Python-разработчик. Автоматизирую отчётность и рутинные процессы в Kaiten, Google Sheets и MAX, внедряю ИИ там, где он экономит время.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Unbounded:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top" id="top">
+  <a class="logo" href="#top">Ваше Имя<span>.</span></a>
+  <nav>
+    <a href="#cases">Что сделано</a>
+    <a href="#flow">Как работает</a>
+    <a href="#ai">ИИ в рутине</a>
+    <a href="#about">Обо мне</a>
+    <a class="btn btn-small" href="#contact">Написать</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow reveal">Python-разработчик · автоматизация для НКО</p>
+      <h1 class="reveal">Убираю ручную рутину из&nbsp;работы <span class="mark">фонда</span></h1>
+      <p class="lead reveal">Карточки в Kaiten, таблицы в Google Sheets, отчёты руками — всё это можно сделать так, чтобы сотрудники занимались подопечными, а не копированием данных.</p>
+      <div class="hero-actions reveal">
+        <a class="btn" href="#contact">Обсудить задачу</a>
+        <a class="link-arrow" href="#cases">Смотреть, что уже сделано</a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="blob"></div>
+      <div class="chat">
+        <div class="chat-head">
+          <span class="dot"></span> Бот · Kaiten
+        </div>
+        <div class="msg m1">
+          <b>Новое событие</b>
+          Карточка «Помощь семье Н.» перемещена в колонку «В работе»
+        </div>
+        <div class="msg m2">
+          <b>Комментарий</b>
+          Добавлен новый комментарий от координатора
+        </div>
+        <div class="msg m3">
+          <b>Отчёт</b>
+          Файл отправлен на почту ✓
+        </div>
+      </div>
+      <p class="caption">Пример уведомлений (данные условные)</p>
+    </div>
+  </section>
+
+  <!-- CASES -->
+  <section class="section" id="cases">
+    <div class="section-head reveal">
+      <p class="eyebrow">Уже внедрено</p>
+      <h2>Три задачи, которые больше не нужно делать руками</h2>
+    </div>
+
+    <article class="case reveal">
+      <div class="case-num">01</div>
+      <div class="case-body">
+        <h3>Бот в MAX, который следит за Kaiten</h3>
+        <div class="ba">
+          <div><span>Было</span>Менеджер сам открывает доску и ищет, что изменилось в карточках.</div>
+          <div><span>Стало</span>Бот сразу присылает в MAX каждое новое событие по карточкам. Менеджер всегда видит актуальную картину.</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="case reveal">
+      <div class="case-num">02</div>
+      <div class="case-body">
+        <h3>Google Sheets с ИИ-помощником</h3>
+        <div class="ba">
+          <div><span>Было</span>Чтобы найти нужное в базе подопечных, приходилось фильтровать и читать таблицу вручную.</div>
+          <div><span>Стало</span>Любой запрос к базе обрабатывается ИИ, и в ответ приходит только нужная информация.</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="case reveal">
+      <div class="case-num">03</div>
+      <div class="case-body">
+        <h3>Отчёты из MAX сразу на почту</h3>
+        <div class="ba">
+          <div><span>Было</span>Файл скачивали, прикрепляли к письму, писали описание, отправляли.</div>
+          <div><span>Стало</span>Бот сам отправляет файл с описанием на нужную почту.</div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- FLOW -->
+  <section class="section flow-section" id="flow">
+    <div class="section-head reveal">
+      <p class="eyebrow">Как это связано</p>
+      <h2>Данные идут туда, где людям удобно с ними работать</h2>
+    </div>
+
+    <div class="flow reveal">
+      <div class="node"><span class="node-title">Kaiten</span><span class="node-sub">карточки и задачи</span></div>
+      <div class="wire"></div>
+      <div class="node node-accent"><span class="node-title">Python-бот</span><span class="node-sub">события, ИИ, отчёты</span></div>
+      <div class="wire"></div>
+      <div class="node"><span class="node-title">MAX</span><span class="node-sub">уведомления и запросы</span></div>
+      <div class="wire"></div>
+      <div class="node"><span class="node-title">Почта</span><span class="node-sub">отчёты с описанием</span></div>
+    </div>
+    <p class="flow-note reveal">Google Sheets подключён к тому же боту: база подопечных доступна для запросов на обычном языке.</p>
+  </section>
+
+  <!-- AI -->
+  <section class="section ai" id="ai">
+    <div class="section-head reveal">
+      <p class="eyebrow">Куда двигаться дальше</p>
+      <h2>ИИ как помощник в рутине, а не вместо людей</h2>
+      <p class="section-lead">В фонде много однотипной работы с текстом и данными: разобрать обращение, найти запись, собрать отчёт. Именно такие задачи ИИ делает хорошо. Окончательное решение остаётся за сотрудником.</p>
+    </div>
+
+    <ul class="ideas">
+      <li class="reveal">
+        <h3>Разбор входящих обращений</h3>
+        <p>ИИ читает сообщение, определяет тип помощи и срочность, предлагает заполненную карточку в Kaiten. Менеджер проверяет и подтверждает.</p>
+      </li>
+      <li class="reveal">
+        <h3>Краткая история по подопечному</h3>
+        <p>Вместо чтения длинной ленты комментариев — короткая сводка: что было сделано, что осталось и что ждёт ответа.</p>
+      </li>
+      <li class="reveal">
+        <h3>Черновики отчётов</h3>
+        <p>Данные из таблиц и карточек собираются в текст отчёта для руководства или партнёров. Остаётся прочитать и поправить.</p>
+      </li>
+      <li class="reveal">
+        <h3>Проверка качества данных</h3>
+        <p>Поиск дублей, пустых обязательных полей и опечаток в базе, пока они не попали в отчёт.</p>
+      </li>
+      <li class="reveal">
+        <h3>Утренний дайджест в MAX</h3>
+        <p>Что просрочено, что без исполнителя, что требует решения сегодня — одним сообщением.</p>
+      </li>
+      <li class="reveal">
+        <h3>Голос и документы в текст</h3>
+        <p>Голосовые заметки и сканы превращаются в текст и прикрепляются к нужной карточке.</p>
+      </li>
+    </ul>
+
+    <div class="rules reveal">
+      <h3>Принципы, на которых это строится</h3>
+      <div class="rules-grid">
+        <p><b>Человек подтверждает.</b> ИИ предлагает, сотрудник решает.</p>
+        <p><b>Данные подопечных защищены.</b> ИИ получает только то, что нужно для запроса.</p>
+        <p><b>Начинаем с малого.</b> Одна рутинная задача, проверка на практике, затем следующая.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="about-grid">
+      <div class="reveal">
+        <p class="eyebrow">Обо мне</p>
+        <h2>Python-разработчик банковских систем</h2>
+        <p>Более 2 лет я пишу на Python для банковской сферы, где важны точность, надёжность и аккуратная работа с данными. Эти же подходы применяю в проектах для фонда.</p>
+        <p>Хочу делать больше таких кейсов: закрывать рутину с отчётностью и внедрять ИИ в повседневные процессы так, чтобы это было просто и безопасно.</p>
+      </div>
+
+      <div class="reveal">
+        <h3 class="mini">Навыки</h3>
+        <ul class="tags">
+          <li>Python</li>
+          <li>Боты и мессенджеры</li>
+          <li>Интеграции по API</li>
+          <li>Kaiten</li>
+          <li>Google Sheets</li>
+          <li>Отправка на email</li>
+          <li>LLM и ИИ-ассистенты</li>
+          <li>Автоматизация отчётности</li>
+        </ul>
+
+        <h3 class="mini">Чем могу помочь</h3>
+        <ul class="services">
+          <li>Уведомления и боты для вашего мессенджера</li>
+          <li>Связка Kaiten, таблиц и почты</li>
+          <li>Автоматические отчёты по расписанию</li>
+          <li>ИИ-обработка данных и текстов</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner reveal">
+      <h2>Есть процесс, который хочется перестать делать руками?</h2>
+      <p>Расскажите, что занимает больше всего времени. Подумаем, как это автоматизировать.</p>
+      <div class="contact-links">
+        <a class="btn btn-dark" href="mailto:sm41sms@yandex.ru">sm41sms@yandex.rum</a>
+        <a class="btn btn-outline" href="https://t.me/globalredw" target="_blank" rel="noopener">Telegram</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>© <span id="year"></span> Ваше Имя</span>
+  <a href="#top">Наверх ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
